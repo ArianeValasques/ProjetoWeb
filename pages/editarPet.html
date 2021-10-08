@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hotel Pet</title>
+        <link rel="stylesheet" href="../style/editarPet.css">
+        <link href="../fontawesome/css/all.css" rel="stylesheet">
+    </head>
+    <body>
+        <user>
+            <p><i class="fas fa-user"></i> Usuário </p>
+        </user>
+        <aside>
+            <h1><i class="fas fa-paw"></i> Hotel Pet</h1>
+            <form action="">
+                <button className="menu-button" type='submit' formaction="pets.html">
+                    <i class="fas fa-dog"></i>Pet</button>
+                <button className="menu-button" type='submit' formaction="usuarios.html"> 
+                    <i class="fas fa-user"></i></i>Usuários</button>
+                <button className="menu-button" type='submit' formaction="configuracoes.html">
+                    <i class="fas fa-cog"></i>Configurações</button>
+                <button className="menu-button" type='submit' formaction="reservas.html">
+                    <i class="fas fa-book-open"></i>Reservas</button>
+            </form>
+        </aside>
+        <div id="container">	 		
+            <div id="content">	 	
+                <h2>Editar Pet</h2>
+                </br>
+                <label>Nome*</label>
+                <form action="">
+                    <input class="inputtext" type="char" name="" id="" value="">
+                </form>
+                </br>
+                <label>Tipo*</label>
+                <form action="">
+                    <input class="inputtext" type="datalist" name="" id="" value="">
+                </form>
+                </br>
+                <label>Raça*</label>
+                <form action="">
+                    <input class="inputtext" type="char" name="" id="" value="">
+                </form>
+                </br>
+                <label>Tamanho*</label>
+                <form action="">
+                    <input class="inputtext" type="char" name="" id="" value="">
+                </form>
+                </br>
+                <form action="">
+                    <input className="confirm-button" type='submit' value="Salvar" formaction="./home.html">
+                </form>
+                <form action="">
+                    <input className="confirm-button" type='submit' value="Limpar" formaction="./configuracoes.html">
+                </form>
+            </div>
+            <div id="image">
+                <label>Imagem</label>
+                </br>
+                <img class="imagephoto" src="../img/image.png" alt="">
+                </br>
+            </div>
+        </div>
+    </body>
+</html>

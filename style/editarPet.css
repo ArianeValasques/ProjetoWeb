@@ -1,0 +1,105 @@
+body  {  		
+	background: #CCF2FF;  
+	}
+
+#container{
+    width: 600px;
+    height: 600px;
+    font: 500 20px Nunito, sans-serif;
+    color: rgb(10, 41, 82);
+    display: inline-block;
+    }
+
+#content{
+    padding-top: 40px;
+    padding-left: 80px;
+    font: 500 20px Nunito, sans-serif;
+    color: rgb(10, 41, 82);
+    display: inline-block;
+}
+
+#image{
+    padding-top: 150px;
+    float: right;
+    width: 200px;
+    height: 200px;
+    font: 500 20px Nunito, sans-serif;
+    color: rgb(10, 41, 82);
+}
+
+user {
+    float: right;
+    padding-top: 20px;
+    padding-right: 100px;
+    color: rgb(10, 41, 82);
+    font: 500 25px Nunito, sans-serif;
+    }
+
+h1 {
+    padding-top: 40px;
+    color: 	#FF3F00;
+    font: 600 40px Nunito, sans-serif;
+    }
+
+aside{
+    float: left;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 150px;
+    border-right: 100%;
+    border-right: 1px solid rgb(199, 195, 195);
+}
+
+button{
+    float: center;
+    width: 250px;
+    height: 60px;
+    border: 1px solid rgb(199, 195, 195);
+    cursor: pointer;
+    background: #ffff;
+    color: rgb(10, 41, 82);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font: 600 18px Nunito, sans-serif;
+    transition: background-color 0.2s;
+    }
+
+i {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.inputtext {
+    width: 270px;
+    height: 40px;
+    background: #F5F8FA;
+    border: 1px solid rgb(199, 195, 195);
+    outline: none;
+    display: flex;
+    border-radius: 10px;
+    }
+
+label{
+    padding-left: 10px;
+}
+
+input{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(199, 195, 195);
+    float: left;
+    justify-content: center;
+    align-items: center;
+    background: #F5F8FA;
+    color: rgb(10, 41, 82);
+    font: 500 18px Nunito, sans-serif;
+}
+
+
