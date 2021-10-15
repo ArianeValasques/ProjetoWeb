@@ -118,6 +118,19 @@ i {
     font: 500 14px Nunito, sans-serif;
 }
 
+.user-button{
+    width: 150px;
+    height: 40px;
+    margin-right: 30px;
+    border: 0px solid #CCF2FF;
+    background: #CCF2FF;
+    float: left;
+    justify-content: left;
+    align-items: center;
+    color: rgb(10, 41, 82);
+    font: 500 30px Nunito, sans-serif;
+}
+
 .function-button{
     width: 150px;
     height: 40px;

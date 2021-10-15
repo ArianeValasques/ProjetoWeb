@@ -8,7 +8,10 @@
     </head>
     <body>
         <user>
-            <p><i class="fas fa-user"></i> Usuário </p>
+            <form action="">	
+                <button class="user-button" type='submit' formaction="editarPerfil.html">
+                        <i class="fas fa-user"></i>Usuário</button>
+            </form>
         </user>
         <aside>
             <h1><i class="fas fa-paw"></i> Hotel Pet</h1>
@@ -47,10 +50,11 @@
                     <input class="inputtext" type="tel" name="" id="" value="">
                 </form>
                 <label>Função*</label>
-                <form action="">
-                    <input class="inputtext" type="datalist" name="" id="" value="">
-                </form>
-                </br>
+                <select name="funcao" id="cars">
+                    <option value="cliente">Cliente</option>
+                    <option value="funcionario">Funcionário</option>
+                    <option value="gerente">Gerente</option>
+                </select>
                 <form action="">
                     <input className="confirm-button" type='submit' value="Salvar" formaction="./reservas.html">
                 </form>
